@@ -5598,14 +5598,21 @@ HTML;
            // manage file upload without tinymce editor
             $display .= "<span class='b'>" . __('Drag and drop your file here, or') . '</span><br>';
         }
-        $display .= "<input id='fileupload{$p['rand']}' type='file' name='_uploader_" . $p['name'] . "[]'
+        $display .= "
+                    <label  class='form-control' for='fileupload{$p['rand']}'>
+                        Click para seleccionar archivo
+                    </label> 
+                    <input style='visibility :hidden' id='fileupload{$p['rand']}' type='file' name='_uploader_" . $p['name'] . "[]'
                       class='form-control'
                       $required
                       data-uploader-name=\"{$p['name']}\"
                       data-url='" . $CFG_GLPI["root_doc"] . "/ajax/fileupload.php'
                       data-form-data='{\"name\": \"_uploader_" . $p['name'] . "\", \"showfilesize\": \"" . $p['showfilesize'] . "\"}'"
                       . ($p['multiple'] ? " multiple='multiple'" : "")
-                      . ($p['onlyimages'] ? " accept='.gif,.png,.jpg,.jpeg'" : "") . ">";
+                      . ($p['onlyimages'] ? " accept='.gif,.png,.jpg,.jpeg'" : "") . "> 
+                        
+
+                      ";
 
         $progressall_js = '';
         if (!$p['only_uploaded_files']) {
