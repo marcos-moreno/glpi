@@ -1,0 +1,288 @@
+2022-09-23 16:41:41 [5@MARCOS]
+User ID: 5 tried to access a non-existent item /glpi/front/ticket.form.php?id=1?error=3. Additional information: The item could not be found in the database
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6270 displayNotFoundError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6379 displayItemNotFoundPage()
+		C:\xampp\htdocs\glpi\front\ticket.form.php:259 displayFullPageForItem()
+2022-09-23 21:26:27 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/queuednotification.php?error=3 with insufficient rights. Additional information: User is missing the 1 (READ) right for queuednotification
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\Session.php:984 displayRightError()
+		C:\xampp\htdocs\glpi\front\queuednotification.php:42 checkRight()
+2022-09-23 22:02:11 [@MARCOS]
+CSRF check failed for User ID:  at /glpi/front/login.php2022-09-26 18:29:38 [7@MARCOS]
+CSRF check failed for User ID: 7 at /glpi/ajax/actors.php2022-09-26 18:29:43 [7@MARCOS]
+CSRF check failed for User ID: 7 at /glpi/ajax/actors.php2022-09-26 21:13:54 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 21:14:30 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 21:22:10 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 21:24:58 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 21:28:30 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 21:32:25 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6294 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6384 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:241 displayFullPageForItem()
+2022-09-26 21:36:06 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:00:06 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:07:15 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:11:47 [7@MARCOS]
+CSRF check failed for User ID: 7 at /glpi/front/itilfollowup.form.php2022-09-26 23:12:02 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:13:29 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:14:13 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:19:45 [7@MARCOS]
+CSRF check failed for User ID: 7 at /glpi/front/itilfollowup.form.php2022-09-26 23:19:57 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:21:19 [7@MARCOS]
+CSRF check failed for User ID: 7 at /glpi/front/tracking.injector.php2022-09-26 23:22:54 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-26 23:23:42 [7@MARCOS]
+User ID: 7 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-29 21:11:40 [8@MARCOS]
+CSRF check failed for User ID: 8 at /glpi/front/tracking.injector.php2022-09-29 21:25:50 [8@MARCOS]
+CSRF check failed for User ID: 8 at /glpi/front/tracking.injector.php2022-09-29 21:37:13 [8@MARCOS]
+CSRF check failed for User ID: 8 at /glpi/front/tracking.injector.php2022-09-29 23:22:12 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-09-30 15:13:27 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/ajax/actors.php2022-10-03 20:34:35 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-03 20:34:37 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-03 20:34:59 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-03 20:35:01 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-03 20:51:35 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/user.form.php?id=4 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6294 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6384 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:241 displayFullPageForItem()
+2022-10-03 23:00:17 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php?id=192022-10-04 18:20:14 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-04 18:31:35 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/user.form.php?id=11 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6294 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6384 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:241 displayFullPageForItem()
+2022-10-04 19:12:20 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6294 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6384 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:241 displayFullPageForItem()
+2022-10-04 19:21:52 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-04 19:36:27 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-04 19:40:06 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-04 19:44:05 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-04 19:49:22 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/user.form.php?id=2 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6294 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6384 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:241 displayFullPageForItem()
+2022-10-05 15:20:19 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/itillayout.php2022-10-05 15:20:19 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/itillayout.php2022-10-05 15:20:20 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-05 15:20:21 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-05 15:20:23 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/ajax/getDropdownValue.php2022-10-05 16:02:58 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-05 20:08:33 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/ticket.form.php2022-10-10 09:43:46 [4@MARCOS]
+User ID: 4 tried to access or perform an action on /glpi/front/queuednotification.php?error=3 with insufficient rights. Additional information: User is missing the 1 (READ) right for queuednotification
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\Session.php:984 displayRightError()
+		C:\xampp\htdocs\glpi\front\queuednotification.php:42 checkRight()
+2022-10-10 09:43:55 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/queuednotification.php with insufficient rights. Additional information: User is missing the 1 (READ) right for queuednotification
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\Session.php:984 displayRightError()
+		C:\xampp\htdocs\glpi\front\queuednotification.php:42 checkRight()
+2022-10-10 09:45:36 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2022-10-10 09:47:03 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:47:12 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:47:59 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:48:23 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:48:43 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:50:11 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:52:05 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 09:54:25 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 10:03:09 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 10:07:43 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/ajax/massiveaction.php2022-10-10 10:11:16 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 10:12:10 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 10:16:14 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:2998 displayRightError()
+		C:\xampp\htdocs\glpi\front\itilfollowup.form.php:54 check()
+2022-10-10 10:30:43 [4@MARCOS]
+User ID: 4 tried to access or perform an action on /glpi/front/queuednotification.php?error=3?error=3 with insufficient rights. Additional information: User is missing the 1 (READ) right for queuednotification
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\Session.php:984 displayRightError()
+		C:\xampp\htdocs\glpi\front\queuednotification.php:42 checkRight()
+2022-10-10 11:11:06 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/front/user.form.php2022-10-10 12:27:44 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2022-10-10 12:27:44 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/front/crontask.form.php2022-10-10 15:51:56 [9@MARCOS]
+CSRF check failed for User ID: 9 at /glpi/front/itilfollowup.form.php2022-10-13 12:12:20 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/front/itilfollowup.form.php2022-10-13 23:40:38 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/ajax/search.php2022-10-13 23:40:40 [2@MARCOS]
+CSRF check failed for User ID: 2 at /glpi/ajax/search.php2022-10-17 09:08:24 [9@MARCOS]
+User ID: 9 tried to access or perform an action on /glpi/front/user.form.php?id=9 with insufficient rights. Additional information: Missing READ right. Cannot view the item.
+	Stack Trace:
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6294 displayRightError()
+		C:\xampp\htdocs\glpi\src\CommonDBTM.php:6384 displayAccessDeniedPage()
+		C:\xampp\htdocs\glpi\front\user.form.php:241 displayFullPageForItem()
+2022-10-18 13:04:45 [2@vps-a4eeb989]
+CSRF check failed for User ID: 2 at /glpi/ajax/massiveaction.php2022-10-18 13:27:11 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/queuednotification.php with insufficient rights. Additional information: User is missing the 1 (READ) right for queuednotification
+	Stack Trace:
+		/var/www/html/glpi/src/Session.php:984 displayRightError()
+		/var/www/html/glpi/front/queuednotification.php:42 checkRight()
+2022-10-18 14:30:16 [4@vps-a4eeb989]
+User ID: 4 tried to access or perform an action on /glpi/front/queuednotification.php?error=3 with insufficient rights. Additional information: User is missing the 1 (READ) right for queuednotification
+	Stack Trace:
+		/var/www/html/glpi/src/Session.php:984 displayRightError()
+		/var/www/html/glpi/front/queuednotification.php:42 checkRight()
+2022-11-03 18:41:57 [@vps-a4eeb989]
+CSRF check failed for User ID:  at /glpi/front/login.php2022-11-07 16:32:38 [@vps-a4eeb989]
+CSRF check failed for User ID:  at /glpi/front/login.php2022-11-07 17:34:37 [9@vps-a4eeb989]
+User ID: 9 tried to access a non-existent item /glpi/front/ticket.form.php?id=34. Additional information: The item could not be found in the database
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:6270 displayNotFoundError()
+		/var/www/html/glpi/src/CommonDBTM.php:6379 displayItemNotFoundPage()
+		/var/www/html/glpi/front/ticket.form.php:259 displayFullPageForItem()
+2022-11-07 17:44:01 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:2998 displayRightError()
+		/var/www/html/glpi/front/itilfollowup.form.php:54 check()
+2022-11-07 17:45:19 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:2998 displayRightError()
+		/var/www/html/glpi/front/itilfollowup.form.php:54 check()
+2022-11-07 17:46:36 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:2998 displayRightError()
+		/var/www/html/glpi/front/itilfollowup.form.php:54 check()
+2022-11-07 17:55:46 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:2998 displayRightError()
+		/var/www/html/glpi/front/itilfollowup.form.php:54 check()
+2022-11-07 17:56:25 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:2998 displayRightError()
+		/var/www/html/glpi/front/itilfollowup.form.php:54 check()
+2022-11-07 17:58:43 [9@vps-a4eeb989]
+User ID: 9 tried to access or perform an action on /glpi/front/itilfollowup.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ITILFollowup ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:2998 displayRightError()
+		/var/www/html/glpi/front/itilfollowup.form.php:54 check()
+2022-11-07 19:10:52 [9@vps-a4eeb989]
+User ID: 9 tried to access a non-existent item /glpi/front/ticket.form.php?id=34. Additional information: The item could not be found in the database
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:6270 displayNotFoundError()
+		/var/www/html/glpi/src/CommonDBTM.php:6379 displayItemNotFoundPage()
+		/var/www/html/glpi/front/ticket.form.php:259 displayFullPageForItem()

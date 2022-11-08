@@ -1,0 +1,37 @@
+1667491759
+e998da20829ec65d86c4c0196a3b566df6ba2367
+a:1:{s:60:"bn_count_tickets_closed_e004bab5-f2b6-4060-a401-a2a8b9885245";s:1276:"      <style>
+         #bn_1003691456 {
+            background-color: #515151;
+            color: #b7b7b7;
+         }
+
+         #bn_1003691456:hover {
+            background-color: #777777;
+            border: 1px solid #9e9e9e;
+         }
+
+         .theme-dark #bn_1003691456 {
+            background-color: #b7b7b7;
+            color: #515151;
+         }
+
+         .theme-dark #bn_1003691456:hover {
+            background-color: #777777;
+            color: #b7b7b7;
+            border: 1px solid #9e9e9e;
+         }
+      </style>
+      <a href='/glpi/front/ticket.php?criteria%5B0%5D%5Bfield%5D=12&criteria%5B0%5D%5Bsearchtype%5D=equals&criteria%5B0%5D%5Bvalue%5D=6&reset=reset'
+         id="bn_1003691456"
+         class="card big-number  filter-dates filter-dates_mod filter-itilcategory filter-group_tech filter-user_tech filter-requesttype filter-location"
+         title="">
+         <span class="content">            <span title="7"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">7</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Tickets cerrados">Tickets cerrados</div>
+         <i class="main-icon fas fa-archive"></i>
+      </a>";}

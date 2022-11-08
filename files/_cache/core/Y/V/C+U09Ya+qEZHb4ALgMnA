@@ -1,0 +1,37 @@
+1667497678
+a5636e0006bf284efaeb17426b0b218ad1203f3a
+a:1:{s:55:"bn_count_Enclosure_c21ce30a-58c3-456a-81ec-3c5f01527a8f";s:1139:"      <style>
+         #bn_49310461 {
+            background-color: #d7e8e4;
+            color: #599a8b;
+         }
+
+         #bn_49310461:hover {
+            background-color: #a6ccc3;
+            border: 1px solid #76b0a2;
+         }
+
+         .theme-dark #bn_49310461 {
+            background-color: #599a8b;
+            color: #d7e8e4;
+         }
+
+         .theme-dark #bn_49310461:hover {
+            background-color: #a6ccc3;
+            color: #599a8b;
+            border: 1px solid #76b0a2;
+         }
+      </style>
+      <a href='/glpi/front/enclosure.php?reset=reset'
+         id="bn_49310461"
+         class="card big-number  filter-dates filter-dates_mod filter-location filter-manufacturer filter-group_tech filter-user_tech"
+         title="">
+         <span class="content">            <span title="0"
+                  class="formatted-number"
+                  data-precision='0'>
+               <span class="number">0</span>
+               <span class="suffix"></span>
+            </span></span>
+         <div class="label" title="Enclosures">Enclosures</div>
+         <i class="main-icon ti ti-columns"></i>
+      </a>";}

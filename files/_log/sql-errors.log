@@ -1,0 +1,178 @@
+[2022-09-23 18:03:22] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_notifications_notificationtemplates` (`notifications_id`, `mode`, `notificationtemplates_id`) VALUES ('2', 'mailing', '4')
+  Error: Duplicate entry '2-mailing-4' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1312                               
+  src\CommonDBTM.php:716                             DBmysql->insert()
+  src\CommonDBTM.php:1321                            CommonDBTM->addToDB()
+  ...t\notification_notificationtemplate.form.php:50 CommonDBTM->add()
+  {"user":"2@MARCOS"} 
+[2022-10-03 14:44:53] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysql.php:881                                
+  src\DBmysql.php:1183                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\user.form.php:38                             include()
+  {"user":"2@MARCOS"} 
+[2022-10-03 14:44:53] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysqlIterator.php:110                        
+  src\DBmysql.php:1048                               DBmysqlIterator->execute()
+  src\Config.php:3018                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  front\user.form.php:38                             include()
+  {"user":"2@MARCOS","mem_usage":"0.008\", 13.98Mio)"} 
+[2022-10-03 14:44:54] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysql.php:881                                
+  src\DBmysql.php:1183                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\user.form.php:38                             include()
+  {"user":"2@MARCOS"} 
+[2022-10-03 14:44:54] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysqlIterator.php:110                        
+  src\DBmysql.php:1048                               DBmysqlIterator->execute()
+  src\Config.php:3018                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  front\user.form.php:38                             include()
+  {"user":"2@MARCOS","mem_usage":"0.001\", 13.98Mio)"} 
+[2022-10-03 14:45:00] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysql.php:881                                
+  src\DBmysql.php:1183                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\ticket.form.php:38                           include()
+  {"user":"2@MARCOS"} 
+[2022-10-03 14:45:00] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysqlIterator.php:110                        
+  src\DBmysql.php:1048                               DBmysqlIterator->execute()
+  src\Config.php:3018                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  front\ticket.form.php:38                           include()
+  {"user":"2@MARCOS","mem_usage":"0.001\", 13.98Mio)"} 
+[2022-10-03 14:45:03] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysql.php:881                                
+  src\DBmysql.php:1183                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  {"user":"2@MARCOS"} 
+[2022-10-03 14:45:03] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysqlIterator.php:110                        
+  src\DBmysql.php:1048                               DBmysqlIterator->execute()
+  src\Config.php:3018                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  {"user":"2@MARCOS","mem_usage":"0.001\", 13.96Mio)"} 
+[2022-10-03 14:45:06] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysql.php:881                                
+  src\DBmysql.php:1183                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  {"user":"2@MARCOS"} 
+[2022-10-03 14:45:06] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: Table 'glpi.glpi_configs' doesn't exist in engine
+  Backtrace :
+  src\DBmysqlIterator.php:110                        
+  src\DBmysql.php:1048                               DBmysqlIterator->execute()
+  src\Config.php:3018                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  {"user":"2@MARCOS","mem_usage":"0.001\", 13.96Mio)"} 
+[2022-10-10 07:54:08] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysql.php:881                                
+  src\DBmysql.php:1183                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:116                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  {"user":"2@MARCOS"} 
+[2022-10-10 07:54:08] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:110                        
+  src\DBmysql.php:1048                               DBmysqlIterator->execute()
+  src\Config.php:3018                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  {"user":"2@MARCOS","mem_usage":"0.007\", 13.98Mio)"} 
