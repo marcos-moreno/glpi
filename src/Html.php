@@ -5677,8 +5677,8 @@ HTML;
                );
             },
             messages: {
-              acceptFileTypes: __('Filetype not allowed'),
-              maxFileSize: __('File is too big'),
+              acceptFileTypes: __('Tipo de archivo no permitido'),
+              maxFileSize: __('El archivo es demasiado grande'),
             },
             $progressall_js
          });

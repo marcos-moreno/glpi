@@ -28,7 +28,7 @@ class UploadHandler
         'post_max_size' => 'The uploaded file exceeds the post_max_size directive in php.ini',
         'max_file_size' => 'File is too big',
         'min_file_size' => 'File is too small',
-        'accept_file_types' => 'Filetype not allowed',
+        'accept_file_types' => 'Tipo de archivo no permitido',
         'max_number_of_files' => 'Maximum number of files exceeded',
         'invalid_file_type' => 'Invalid file type',
         'max_width' => 'Image exceeds maximum width',
