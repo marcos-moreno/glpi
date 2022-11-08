@@ -95,7 +95,7 @@
 
             <div class="row mx-n3 mx-xxl-auto">
                {% set col_md = get_current_interface() == 'central' ? 'col-xl-7 col-xxl-8' : 'col-xxl-12' %}
-               <div class="col-12 {{ col_md }}">
+               <div class="col-12 col-xxl-12">
                   {{ fields.textareaField(
                      'content',
                      subitem.fields['content'],
@@ -105,7 +105,7 @@
                         'no_label': true,
                         'enable_richtext': true,
                         'enable_fileupload': true,
-                        'enable_mentions': true,
+                        'enable_mentions': false,
                         'entities_id': item.fields['entities_id'],
                         'rand': rand,
                         'required': add_reopen
@@ -113,7 +113,7 @@
                   ) }}
                </div>
                {% if get_current_interface() == 'central' %}
-                  <div class="col-12 col-xl-5 col-xxl-4 order-first order-md-last pe-o pe-xxl-auto">
+                  <div style="display: none;" class="col-12 col-xl-5 col-xxl-4 order-first order-md-last pe-o pe-xxl-auto">
                      <div class="row">
 
                         {% set fup_template_lbl %}
@@ -214,7 +214,7 @@
                         <span>{{ _x('button', 'Add') }}</span>
                      </button>
                      {% if get_current_interface() == 'central' and item.isAllowedStatus(item.fields['status'], constant('CommonITILObject::WAITING')) %}
-                        <span class="input-group-text bg-yellow-lt py-0 pe-0" id="pending-reasons-control-{{ rand }}">
+                        <span style="display:none;" class="input-group-text bg-yellow-lt py-0 pe-0" id="pending-reasons-control-{{ rand }}">
                            <span class="d-inline-flex align-items-center" title="{{ __("Set the status to pending") }}"
                                  data-bs-toggle="tooltip" data-bs-placement="top" role="button">
                               <i class="fas fa-pause me-2"></i>
