@@ -43,75 +43,75 @@ class GLPIUploadHandler extends UploadHandler
     {
         switch ($error) {
             case UPLOAD_ERR_INI_SIZE:
-                return __('The uploaded file exceeds the upload_max_filesize directive in php.ini');
+                return __('El archivo cargado excede la directiva upload_max_filesize en php.ini');
             break;
 
             case UPLOAD_ERR_FORM_SIZE:
-                return __('The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form');
+                return __('El archivo cargado excede la directiva MAX_FILE_SIZE que se especificó en el formulario HTML');
             break;
 
             case UPLOAD_ERR_PARTIAL:
-                return __('The uploaded file was only partially uploaded');
+                return __('El archivo subido solo se cargó parcialmente');
             break;
 
             case UPLOAD_ERR_NO_FILE:
-                return __('No file was uploaded');
+                return __('Ningun archivo fue subido');
             break;
 
             case UPLOAD_ERR_NO_TMP_DIR:
-                return __('Missing a temporary folder');
+                return __('Falta una carpeta temporal');
             break;
 
             case UPLOAD_ERR_CANT_WRITE:
-                return __('Failed to write file to disk');
+                return __('No se pudo escribir el archivo en el disco');
             break;
 
             case UPLOAD_ERR_EXTENSION:
-                return __('A PHP extension stopped the file upload');
+                return __('Una extensión de PHP detuvo la carga del archivo');
             break;
 
             case 'post_max_size':
-                return __('The uploaded file exceeds the post_max_size directive in php.ini');
+                return __('El archivo cargado excede la directiva post_max_size en php.ini');
             break;
 
             case 'max_file_size':
-                return __('File is too big');
+                return __('Archvo demasiado grande');
             break;
 
             case 'min_file_size':
-                return __('File is too small');
+                return __('El archivo es demasiado pequeño');
             break;
 
             case 'max_number_of_files':
-                return __('Maximum number of files exceeded');
+                return __('Número máximo de archivos excedido');
             break;
 
             case 'max_width':
-                return __('Image exceeds maximum width');
+                return __('La imagen excede el ancho máximo');
             break;
 
             case 'min_width':
-                return __('Image requires a minimum width');
+                return __('La imagen requiere un ancho mínimo');
             break;
 
             case 'max_height':
-                return __('Image exceeds maximum height');
+                return __('La imagen excede la altura máxima');
             break;
 
             case 'min_height':
-                return __('Image requires a minimum height');
+                return __('La imagen requiere una altura mínima');
             break;
 
             case 'accept_file_types':
-                return __('Filetype not allowed');
+                return __('Tipo de archivo no permitido');
             break;
 
             case 'abort':
-                return __('File upload aborted');
+                return __('Carga de archivo abortada');
             break;
 
             case 'image_resize':
-                return __('Failed to resize image');
+                return __('Error al cambiar el tamaño de la imagen');
             break;
         }
 
