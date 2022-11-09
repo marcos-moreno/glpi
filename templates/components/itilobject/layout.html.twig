@@ -52,6 +52,30 @@
       </div>
    </div>
 
+   <script>
+      var _idUserTypeSession = document.getElementById("_idUserTypeSession").value;
+      if(_idUserTypeSession == 'Técnico'){
+         var puedeResponder_es = false;
+         var _idUserSession_es = document.getElementById("_idUserSession").value;
+         var _actors_es = document.getElementById("_actors").value;
+         const _actorsArray_Es = JSON.parse(_actors_es);
+         for (var i = 0; i < _actorsArray_Es.assign.length; i++) {
+            if(_actorsArray_Es.assign[i].items_id == _idUserSession_es){
+               puedeResponder_es = true;
+            }
+         }
+         var childNodes = document.getElementById("contenedor-ticket").getElementsByTagName('*');
+         for (var node of childNodes) {
+            if(node.type == 'select-one'){
+               node.disabled = true;
+               if(puedeResponder_es && node.id.includes('dropdown_status')){
+                  node.disabled = false;
+               }
+            } 
+         }
+      }
+   </script>
+
    {% if not params['template_preview'] %}
       {{ include('components/itilobject/footer.html.twig') }}
    {% endif %}
