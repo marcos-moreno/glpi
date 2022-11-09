@@ -41,7 +41,7 @@
                <h6 class="dropdown-header">{{ get_item_name(user) }}</h6>
                
                <input type="hidden" name="_idUserSession" id="_idUserSession" value="{{ user.fields['id'] }}" />
-               <input type="text" name="_idUserTypeSession" id="_idUserTypeSession" value="{{ session('glpiactiveprofile')['name'] }}" />
+               <input type="hidden" name="_idUserTypeSession" id="_idUserTypeSession" value="{{ session('glpiactiveprofile')['name'] }}" />
 
                {% if not anonymous %}
                   {{ include('layout/parts/profile_selector.html.twig') }}
