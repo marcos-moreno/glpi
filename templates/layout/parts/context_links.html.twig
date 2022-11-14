@@ -50,7 +50,7 @@
 {% endif %}
 
 {% if links['search'] is defined %}
-<li style='display:none;' class="nav-item">
+<li class="nav-item">
    <a href="{{ path(links['search']) }}" class="btn btn-icon btn-sm btn-outline-secondary me-1 pe-2" title="{{ __('Search') }}">
       <i class="ti ti-search"></i>
       <span class="d-none d-xxl-block">{{ __('Search') }}</span>
@@ -92,7 +92,7 @@
          </a>
       </li>
    {% elseif type == 'summary_kanban' %}
-      <li class="nav-item">
+      <li style='display:none;'  class="nav-item">
          <a href="{{ path(link) }}" class="btn btn-icon btn-sm btn-outline-secondary me-1 pe-2" title="{{ __('Global Kanban') }}">
             <i class="ti ti-layout-columns"></i>
             <span class="d-none d-xxl-block">{{ __('Global Kanban') }}</span>
