@@ -50,7 +50,7 @@
 {% endif %}
 
 {% if links['search'] is defined %}
-<li class="nav-item">
+<li style='display:none;' class="nav-item">
    <a href="{{ path(links['search']) }}" class="btn btn-icon btn-sm btn-outline-secondary me-1 pe-2" title="{{ __('Search') }}">
       <i class="ti ti-search"></i>
       <span class="d-none d-xxl-block">{{ __('Search') }}</span>
@@ -59,7 +59,7 @@
 {% endif %}
 
 {% if links['lists'] is defined %}
-<li class="nav-item">
+<li style='display:none;' class="nav-item">
    <a href="#" class="btn btn-icon btn-sm btn-outline-secondary me-1 pe-2 show-saved-searches"
       data-itemtype="{{ lists_itemtype }}" title="{{ __('Lists') }}">
       <i class="ti ti-star"></i>
