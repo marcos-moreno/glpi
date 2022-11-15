@@ -35,6 +35,8 @@
 
 include('../inc/includes.php');
 
+Html::redirect($CFG_GLPI['root_doc'] . "/front/ticket.php");
+
 // embed (anonymous) dashboard
 if (isset($_GET["embed"]) && isset($_GET["dashboard"])) {
     $grid      = new Glpi\Dashboard\Grid($_GET["dashboard"]);
