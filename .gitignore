@@ -1,3 +1,2 @@
 config/config_db.php
-files/_cache/*
-files/_sessions/*
+files/*
