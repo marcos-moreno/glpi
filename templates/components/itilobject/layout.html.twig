@@ -65,7 +65,7 @@
             }
          }
          var childNodes = document.getElementById("contenedor-ticket").getElementsByTagName('*');
-         for (var node of childNodes) {
+         for (var node of childNodes) { 
             if(node.type == 'select-one'){
                node.disabled = true;
                if(puedeResponder_es && node.id.includes('dropdown_status')){
@@ -74,6 +74,24 @@
             } 
          }
       }
+
+        var divTickets = document.getElementById("contenedor-ticket").getElementsByTagName('*');
+         for (var node of divTickets) { 
+            if(node.id.includes('solvedate') ){
+               for (var node1 of node.getElementsByTagName('*')) { 
+                  if(node.id.includes('solvedate') ){
+                     node1.disabled = true;
+                  }
+               }
+            }
+            if(node.id.includes('closedate') ){
+               for (var node1 of node.getElementsByTagName('*')) { 
+                  if(node.id.includes('closedate') ){
+                     node1.disabled = true;
+                  }
+               }
+            }
+         }
    </script>
 
    {% if not params['template_preview'] %}
