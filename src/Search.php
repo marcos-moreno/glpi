@@ -2,7 +2,7 @@
 /**
  *   Modificado por Marcos Moreno
  * ---------------------------------------------------------------------
- * seagregó la linea 11
+ *
  */
  
 
@@ -2683,14 +2683,20 @@ JAVASCRIPT;
         echo "</div>
             <script>
                 var form_search_mg = document.getElementById('formSearchMG');
+                var _idUserTypeSession = document.getElementById('_idUserTypeSession').value;
+                console.log(_idUserTypeSession);
                 for (var node of form_search_mg.getElementsByTagName('*')) {
-                    if(node.type == 'select-one'){
-                        if(node.value != 'all' && node.id.includes('dropdown_criteria') && node.id.includes('_value')){
-                            console.log(node);
-                            node.value = 'all';
-                            form_search_mg.submit();
-                        }
-                    } 
+                    //console.log(node);
+                    if(_idUserTypeSession == 'Cliente'){
+                        if(node.type == 'select-one'){
+                            if(node.value != 'all' && node.id.includes('dropdown_criteria') && node.id.includes('_value')){
+                                //console.log(node);
+                                console.log('Se modificó el filtro.');
+                                node.value = 'all';
+                                form_search_mg.submit();
+                            }
+                        } 
+                    }
                 } 
             </script>
         "; // .card
