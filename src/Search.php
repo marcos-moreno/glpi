@@ -2687,7 +2687,7 @@ JAVASCRIPT;
                 console.log(_idUserTypeSession);
                 for (var node of form_search_mg.getElementsByTagName('*')) {
                     //console.log(node);
-                    if(_idUserTypeSession == 'Cliente'){
+                    if(_idUserTypeSession == 'CLIENTE'){
                         if(node.type == 'select-one'){
                             if(node.value != 'all' && node.id.includes('dropdown_criteria') && node.id.includes('_value')){
                                 //console.log(node);
