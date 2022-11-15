@@ -2523,7 +2523,7 @@ class Search
         $main_block_class = '';
         $card_class = 'search-form card card-sm mb-4';
         if ($p['mainform']) {
-            echo "<form name='searchform$normalized_itemtype' class='search-form-container' method='get' action='" . $p['target'] . "'>";
+            echo "<form id='formSearchMG' name='searchform$normalized_itemtype' class='search-form-container' method='get' action='" . $p['target'] . "'>";
         } else {
             $main_block_class = "sub_criteria";
             $card_class = 'border d-inline-block ms-1';
@@ -2706,8 +2706,21 @@ JAVASCRIPT;
             echo Html::hidden('start', ['value'    => 0]);
         }
 
-        echo "</div>"; // #searchcriteria
-        echo "</div>"; // .card
+        echo "</div>";
+        echo "</div>
+            <script>
+                var form_search_mg = document.getElementById('formSearchMG');
+                for (var node of form_search_mg.getElementsByTagName('*')) {
+                    if(node.type == 'select-one'){
+                        if(node.value != 'all' && node.id.includes('dropdown_criteria') && node.id.includes('_value')){
+                            console.log(node);
+                            node.value = 'all';
+                            form_search_mg.submit();
+                        }
+                    } 
+                } 
+            </script>
+        "; // .card
         if ($p['mainform']) {
             Html::closeForm();
         }
