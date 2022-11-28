@@ -1653,7 +1653,7 @@ class Config extends CommonDBTM
         if ($CFG_GLPI["use_password_security"]) {
             printf(
                 __('%1$s: %2$s'),
-                __('Password minimum length'),
+                __('Longitud mínima de la contraseña'),
                 "<span id='password_min_length' class='red'>" . $CFG_GLPI['password_min_length'] .
                 "</span>"
             );
@@ -1671,7 +1671,7 @@ class Config extends CommonDBTM
                " . Html::jsGetElementByID('password_min_length') . ".removeClass('red');
          }";
             if ($CFG_GLPI["password_need_number"]) {
-                $needs[] = "<span id='password_need_number' class='red'>" . 'Dígito' . "</span>";
+                $needs[] = "<span id='password_need_number' class='red'>" . 'Dígitos' . "</span>";
                 echo "var numberRegex = new RegExp('[0-9]', 'g');
             if (false == numberRegex.test(pwd.val())) {
                   " . Html::jsGetElementByID('password_need_number') . ".addClass('red');
@@ -1704,7 +1704,7 @@ class Config extends CommonDBTM
             }";
             }
             if ($CFG_GLPI["password_need_symbol"]) {
-                $needs[] = "<span id='password_need_symbol' class='red'>" . 'Símbolo' . "</span>";
+                $needs[] = "<span id='password_need_symbol' class='red'>" . 'Símbolos' . "</span>";
                 echo "var capsRegex = new RegExp('[^a-zA-Z0-9_]', 'g');
             if (false == capsRegex.test(pwd.val())) {
                   " . Html::jsGetElementByID('password_need_symbol') . ".addClass('red');
