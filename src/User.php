@@ -2471,7 +2471,7 @@ HTML;
             if ($CFG_GLPI["use_password_security"]) {
                 echo "<tr class='tab_bg_1'>";
                 echo "<td rowspan='2'>";
-                echo __('Password security policy');
+                echo __('Política de seguridad de contraseña');
                 echo "</td>";
                 echo "<td rowspan='2'>";
                 Config::displayPasswordSecurityChecks();
@@ -5254,7 +5254,7 @@ HTML;
 
         if ($CFG_GLPI['use_password_security']) {
             echo '<tr class="tab_bg_1">';
-            echo '<td>' . __('Password security policy') . '</td>';
+            echo '<td>' . __('Política de seguridad de contraseña') . '</td>';
             echo '<td>';
             Config::displayPasswordSecurityChecks();
             echo '</td>';
@@ -5391,7 +5391,7 @@ HTML;
     {
         try {
             if ($this->updateForgottenPassword($input)) {
-                Session::addMessageAfterRedirect(__('Reset password successful.'));
+                Session::addMessageAfterRedirect(__('Restablecimiento de contraseña exitoso.'));
             }
         } catch (\Glpi\Exception\ForgetPasswordException $e) {
             Session::addMessageAfterRedirect($e->getMessage(), false, ERROR);
@@ -5424,10 +5424,10 @@ HTML;
             Session::addMessageAfterRedirect($e->getMessage(), false, ERROR);
             return;
         }
-        Session::addMessageAfteRredirect(__('If the given email address match an exisiting GLPI user, you will receive an email containing the informations required to reset your password. Please contact your administrator if you do not receive any email.'));
+        Session::addMessageAfteRredirect(__('Si la dirección de correo electrónico proporcionada coincide con un usuario existente, recibirá un correo electrónico con la información necesaria para restablecer su contraseña. Póngase en contacto con su administrador si no recibe ningún correo electrónico.'));
 
         TemplateRenderer::getInstance()->display('password_form.html.twig', [
-            'title'         => __('Forgotten password?'),
+            'title'         => __('¿Contraseña olvidada?'),
             'messages_only' => true,
         ]);
     }

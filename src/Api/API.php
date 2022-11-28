@@ -2168,7 +2168,7 @@ abstract class API
                 $this->returnError($e->getMessage());
             }
             return [
-                __('If the given email address match an exisiting GLPI user, you will receive an email containing the informations required to reset your password. Please contact your administrator if you do not receive any email.')
+                __('Si la dirección de correo electrónico proporcionada coincide con un usuario existente, recibirá un correo electrónico con la información necesaria para restablecer su contraseña. Póngase en contacto con su administrador si no recibe ningún correo electrónico.')
             ];
         } else {
             $password = isset($params['password']) ? $params['password'] : '';
@@ -2185,7 +2185,7 @@ abstract class API
                 implode('\n', $e->getMessages());
                 $this->returnError(implode('\n', $e->getMessages()));
             }
-            return [__("Reset password successful.")];
+            return [__("Restablecimiento de contraseña exitoso.")];
         }
     }
 

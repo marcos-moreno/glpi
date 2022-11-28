@@ -1903,7 +1903,7 @@ class CommonDBTM extends CommonGLPI
                 $display = $this->getLink();
             }
            //TRANS : %s is the description of the updated item
-            Session::addMessageAfterRedirect(sprintf(__('%1$s: %2$s'), __('Item successfully updated'), $display));
+            Session::addMessageAfterRedirect(sprintf(__('%1$s: %2$s'), __('Actualización exitosa'), $display));
         }
     }
 

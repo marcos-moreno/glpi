@@ -1671,7 +1671,7 @@ class Config extends CommonDBTM
                " . Html::jsGetElementByID('password_min_length') . ".removeClass('red');
          }";
             if ($CFG_GLPI["password_need_number"]) {
-                $needs[] = "<span id='password_need_number' class='red'>" . __('Digit') . "</span>";
+                $needs[] = "<span id='password_need_number' class='red'>" . 'Dígito' . "</span>";
                 echo "var numberRegex = new RegExp('[0-9]', 'g');
             if (false == numberRegex.test(pwd.val())) {
                   " . Html::jsGetElementByID('password_need_number') . ".addClass('red');
@@ -1682,7 +1682,7 @@ class Config extends CommonDBTM
             }";
             }
             if ($CFG_GLPI["password_need_letter"]) {
-                $needs[] = "<span id='password_need_letter' class='red'>" . __('Lowercase') . "</span>";
+                $needs[] = "<span id='password_need_letter' class='red'>" . 'Minúsculas' . "</span>";
                 echo "var letterRegex = new RegExp('[a-z]', 'g');
             if (false == letterRegex.test(pwd.val())) {
                   " . Html::jsGetElementByID('password_need_letter') . ".addClass('red');
@@ -1693,7 +1693,7 @@ class Config extends CommonDBTM
             }";
             }
             if ($CFG_GLPI["password_need_caps"]) {
-                $needs[] = "<span id='password_need_caps' class='red'>" . __('Uppercase') . "</span>";
+                $needs[] = "<span id='password_need_caps' class='red'>" . 'Mayúsculas' . "</span>";
                 echo "var capsRegex = new RegExp('[A-Z]', 'g');
             if (false == capsRegex.test(pwd.val())) {
                   " . Html::jsGetElementByID('password_need_caps') . ".addClass('red');
@@ -1704,7 +1704,7 @@ class Config extends CommonDBTM
             }";
             }
             if ($CFG_GLPI["password_need_symbol"]) {
-                $needs[] = "<span id='password_need_symbol' class='red'>" . __('Symbol') . "</span>";
+                $needs[] = "<span id='password_need_symbol' class='red'>" . 'Símbolo' . "</span>";
                 echo "var capsRegex = new RegExp('[^a-zA-Z0-9_]', 'g');
             if (false == capsRegex.test(pwd.val())) {
                   " . Html::jsGetElementByID('password_need_symbol') . ".addClass('red');
@@ -1717,9 +1717,9 @@ class Config extends CommonDBTM
         }
         echo "}";
         echo '</script>';
-        if (count($needs)) {
+        if (count($needs)) { 
             echo "<br>";
-            printf(__('%1$s: %2$s'), __('Password must contains'), implode(', ', $needs));
+            printf(__('%1$s: %2$s'), __('La contraseña debe contener'), implode(', ', $needs));
         }
     }
 
@@ -1746,9 +1746,9 @@ class Config extends CommonDBTM
             if (Toolbox::strlen($password) < $CFG_GLPI['password_min_length']) {
                 $ok = false;
                 if ($display) {
-                    Session::addMessageAfterRedirect(__('Password too short!'), false, ERROR);
+                    Session::addMessageAfterRedirect(__('¡Contraseña demasiado corta!'), false, ERROR);
                 } else {
-                    $exception->addMessage(__('Password too short!'));
+                    $exception->addMessage(__('¡Contraseña demasiado corta!'));
                 }
             }
             if (
@@ -1758,12 +1758,12 @@ class Config extends CommonDBTM
                 $ok = false;
                 if ($display) {
                     Session::addMessageAfterRedirect(
-                        __('Password must include at least a digit!'),
+                        __('¡La contraseña debe incluir al menos un dígito!'),
                         false,
                         ERROR
                     );
                 } else {
-                    $exception->addMessage(__('Password must include at least a digit!'));
+                    $exception->addMessage(__('¡La contraseña debe incluir al menos un dígito!'));
                 }
             }
             if (
@@ -1773,12 +1773,12 @@ class Config extends CommonDBTM
                 $ok = false;
                 if ($display) {
                     Session::addMessageAfterRedirect(
-                        __('Password must include at least a lowercase letter!'),
+                        __('¡La contraseña debe incluir al menos una letra minúscula!'),
                         false,
                         ERROR
                     );
                 } else {
-                    $exception->addMessage(__('Password must include at least a lowercase letter!'));
+                    $exception->addMessage(__('¡La contraseña debe incluir al menos una letra minúscula!'));
                 }
             }
             if (
@@ -1788,12 +1788,12 @@ class Config extends CommonDBTM
                 $ok = false;
                 if ($display) {
                     Session::addMessageAfterRedirect(
-                        __('Password must include at least a uppercase letter!'),
+                        __('¡La contraseña debe incluir al menos una letra mayúscula!'),
                         false,
                         ERROR
                     );
                 } else {
-                    $exception->addMessage(__('Password must include at least a uppercase letter!'));
+                    $exception->addMessage(__('¡La contraseña debe incluir al menos una letra mayúscula!'));
                 }
             }
             if (
@@ -1803,12 +1803,12 @@ class Config extends CommonDBTM
                 $ok = false;
                 if ($display) {
                     Session::addMessageAfterRedirect(
-                        __('Password must include at least a symbol!'),
+                        __('¡La contraseña debe incluir al menos un símbolo!'),
                         false,
                         ERROR
                     );
                 } else {
-                    $exception->addMessage(__('Password must include at least a symbol!'));
+                    $exception->addMessage(__('¡La contraseña debe incluir al menos un símbolo!'));
                 }
             }
         }
@@ -3452,7 +3452,7 @@ HTML;
         echo '<tr class="tab_bg_2">';
         echo '<td>';
         echo '<label for="dropdown_use_password_security' . $rand . '">';
-        echo __('Password security policy validation');
+        echo __('Política de seguridad de contraseña');
         echo '</label>';
         echo '</td>';
         echo '<td>';
@@ -3467,7 +3467,7 @@ HTML;
         echo '</td>';
         echo '<td>';
         echo '<label for="dropdown_password_min_length' . $rand . '">';
-        echo __('Password minimum length');
+        echo __('Longitud mínima de la contraseña');
         echo '</label>';
         echo '</td>';
         echo '<td>';
@@ -3534,7 +3534,7 @@ HTML;
         echo '</td>';
         echo '<td>';
         echo '<label for="dropdown_password_need_symbol' . $rand . '">';
-        echo __('Password need symbol');
+        echo __('la contraseña requiere un simbolo');
         echo '</label>';
         echo '</td>';
         echo '<td>';
